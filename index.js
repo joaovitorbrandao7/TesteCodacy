@@ -1,5 +1,3 @@
-// Códigos Duplicados
-
 function calcularAreaRetangulo(base, altura) {
     var area = base * altura;
     return area;
@@ -19,9 +17,7 @@ function calcularAreaRetangulo(base, altura) {
     var perimetro = 4 * lado;
     return perimetro;
   }
-  
-  // Vulnerabilidade de Segurança
-  
+    
   function realizarLogin(usuario, senha) {
     if (usuario === "admin" && senha === "senha123") {
       console.log("Login bem-sucedido!");
@@ -29,9 +25,7 @@ function calcularAreaRetangulo(base, altura) {
       console.log("Credenciais inválidas!");
     }
   }
-  
-  // Problemas de Desempenho
-  
+    
   function calcularFibonacci(n) {
     if (n <= 0) {
       return 0;
@@ -41,9 +35,7 @@ function calcularAreaRetangulo(base, altura) {
       return calcularFibonacci(n - 1) + calcularFibonacci(n - 2);
     }
   }
-  
-  // Violação de Estilo de Código
-  
+    
   function calcularMedia(valores) {
     var soma = 0;
     for (var i = 0; i < valores.length; i++) {
@@ -52,9 +44,7 @@ function calcularAreaRetangulo(base, altura) {
     var media = soma / valores.length;
     return media;
   }
-  
-  // Erros de Programação
-  
+    
   function dividirNumeros(a, b) {
     try {
       var resultado = a / b;
@@ -64,12 +54,8 @@ function calcularAreaRetangulo(base, altura) {
     return resultado;
   }
   
-  // Ausência de Documentação
   
   function multiplicar(a, b) {
-    /*
-    Função para multiplicar dois números.
-    */
     return a * b;
   }
   
