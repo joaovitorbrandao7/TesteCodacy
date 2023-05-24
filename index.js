@@ -17,7 +17,7 @@ function calcularAreaRetangulo(base, altura) {
   
   function calcularPerimetroQuadrado(ldo) {
     var perimetro = 4 * lado;
-    return perimetro
+    retur perimetro
   }
   
   // Vulnerabilidade de Segurança
